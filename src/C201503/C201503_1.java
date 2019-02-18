@@ -32,7 +32,6 @@ public class C201503_1 {
 		for (int i = 0; i < 2; i++) {
 			lr[i] = sc.nextInt();
 		}
-		int count = 0;
 		int a[][] = new int[lr[0]][lr[1]];
 		for (int i = 0; i < lr[0]; i++) {
 			for (int j = 0; j < lr[1]; j++) {
