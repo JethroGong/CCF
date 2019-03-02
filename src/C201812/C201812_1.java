@@ -47,7 +47,23 @@ public class C201812_1 {
 		int r = sc.nextInt();
 		int g = sc.nextInt();
 		int y = sc.nextInt();
-		int n = sc.nextInt();
-
+		int count = sc.nextInt();
+		int result = 0;
+		int index, time;
+		for (int i = 0; i < count; i++) {
+			index = sc.nextInt();
+			time = sc.nextInt();
+			if (index == 0) {
+				result = result + time;
+			}
+			if (index == 1) {
+				result = result + time;
+			}
+			if (index == 2) {
+				result = result + time + r;
+			}
+		}
+		System.out.println(result);
+		sc.close();
 	}
 }
